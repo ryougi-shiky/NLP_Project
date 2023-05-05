@@ -5,3 +5,4 @@ dev-claims.json
 evidence.json                   
 results                         
 train-claims.json
+.DS_Store
