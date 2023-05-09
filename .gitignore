@@ -6,4 +6,5 @@ evidence.json
 results                         
 train-claims.json
 test_claims_predictions.json
+dev_claims_out.json
 .DS_Store
