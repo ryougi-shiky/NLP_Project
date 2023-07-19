@@ -15,3 +15,15 @@ The logic of model is shown below:
 
 
 ## User Guide
+1. In the .ipynb file, Loading Datasets block, make sure to load datasets.
+2. Install all dependencies.
+3. In the .ipynb file, Environment variables block, adjust the variables that you expect to use.
+4. Run the .ipynb file and generate the test data prediction file.
+5. Use `eval.py` in `project-datasets` to test the model performance. For example: `python eval.py --predictions dev-claims-baseline.json --groundtruth dev-claims.json`
+
+Output: 
+```
+Evidence Retrieval F-score (F) = 0.3377705627705628 
+Claim Classification Accuracy (A) = 0.35064935064935066 
+Harmonic Mean of F and A = 0.3440894901357093
+```
